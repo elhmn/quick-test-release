@@ -16,7 +16,7 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
         with:
-          name: elhmn/quick-test
+          repository: elhmn/quick-test
           fetch-depth: 0
 
       -
