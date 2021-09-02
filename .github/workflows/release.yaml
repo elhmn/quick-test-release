@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: elhmn/quick-test
-          ref: kuber-release
+          ref: kuber-branch #should be kuber-release in the future
           fetch-depth: 0
 
       -
